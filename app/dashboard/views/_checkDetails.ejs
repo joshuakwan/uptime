@@ -151,7 +151,7 @@ $(document).ready(function() {
   $('#check_form input[name*="url"]').blur(function() {
     var field = $(this);
     if (field.val() && field.val().indexOf('://') == -1) {
-      field.val('http://' + field.val());
+      //field.val('http://' + field.val());
     }
   });
 
